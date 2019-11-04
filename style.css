@@ -5,8 +5,6 @@
 }
 
 
-h1.text-red {
-  display: block;
-  font-size: 6em;
-  margin: 3px;
+h4 {
+  color: yellow;
 }
