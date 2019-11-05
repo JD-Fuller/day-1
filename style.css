@@ -1,10 +1,75 @@
-.text-red {
-  color: red;
-  background-color: blue;
+:root {
+  --mainColor: #ff9800;
+}
 
+a {
+  background: linear-gradient(to bottom, var(--mainColor)0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 1px;
+  color: white;
+  text-decoration: none;
+  transition: background-size .25s;
+}
+
+a:hover {
+  background-size: 5px 50px;
+  color: black;
+  font-weight: bold;
+  font-size:30px;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-size: 17px;
+  color: black;
+  line-height: 1.8;
+}
+
+#image {
+  background-image:url('https://cdn.wallpapersafari.com/54/93/bKt6Gz.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#image h1 {
+  font-size: 100px;
+  font-family: montserrat;
+  line-height: 1.9;
+}
+
+#image h2 {
+  font-size: 38px;
+  font-family: "helvetica neue";
+  line-height: 10px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#image h3 {
+  font-size: 25px;
+  font-family: helvetica;
+  line-height: 10px;
+  padding: 0 10px;
+}
+
+#image div {
+  font-size: 20px;
+  font-family: arial;
+  color: white;
+  line-height: 1.4;
 }
 
 
-h4 {
-  color: yellow;
-}
