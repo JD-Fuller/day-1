@@ -60,13 +60,13 @@ body {
 
 #image h3 {
   font-size: 25px;
-  font-family: helvetica;
+  font-family: "permanent marker", helvetica;
   line-height: 10px;
   padding: 0 10px;
 }
 
 #image div {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "permanent marker", arial;
   color: white;
   line-height: 1.4;
