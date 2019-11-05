@@ -72,6 +72,6 @@ body {
   line-height: 1.4;
 }
 
-ol {
-  list-style: none;
+ul {
+  list-style: lower-greek;
 }
