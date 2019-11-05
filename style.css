@@ -74,3 +74,14 @@ body {
 ul {
   list-style-type: none;
 }
+
+@media screen and (max-width: 600px) {
+  #image div {
+    font: size 12;
+  }
+}
+@media screen and (min-width: 600px) {
+  #image div {
+    font-size: 18px;
+  }
+}
